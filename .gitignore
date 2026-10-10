@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.blend1
+**/generated/
+chapters/
+dist/
+evidence/
+*.epub
+*.pdf
+*.zip
