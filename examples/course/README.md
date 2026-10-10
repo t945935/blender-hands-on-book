@@ -37,7 +37,7 @@ $Script = (Resolve-Path '.\scripts\inspect_scene.py').Path
 if ($LASTEXITCODE -ne 0) { throw "Blender 檢查失敗，退出碼 $LASTEXITCODE" }
 ```
 
-也可在 Blender 的 Text Editor 開啟 `inspect_scene.py` 並執行；報告印在主控台，不會插入場景或建立文字檔。
+也可在 Blender 的 Text Editor 開啟 `scripts/inspect_scene.py`，閱讀後再執行。腳本只把 JSON 印到系統主控台，不修改場景物件，也不建立磁碟報告檔；但開啟文字會載入 Text 資料區塊，切換工作區也可能改變介面狀態。若之後保存 `.blend`，檔案內容可能不同；腳本唯讀不代表整個 GUI 操作過程零變更。
 
 ## 檢查點與驗證的界線
 
