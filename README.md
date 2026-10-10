@@ -20,6 +20,9 @@
 - [範例與選用程式說明](examples/reading-corner/README.md)
 - [官方參考資料](docs/references.md)
 - [檔案 SHA-256 清單](SHA256SUMS.txt)
+- [Happy eBook 讀者配套使用許可](LICENSE.md)
+
+課程救援參考位於 `examples/course/checkpoints/`：`tray-material-a.blend`、`corner-integrated.blend`、`corner-camera-ready.blend`。三檔由背景程序產生，供材質、場景整合與相機階段卡關時另存副本比對；**不是學員 GUI 作業，也不代表真人跟做驗收**。用途與限制請見[課程說明](examples/course/README.md)。
 
 `chapter01-start.blend` 是跟做起點；`reading-corner.blend` 是同一原型的完整場景；`reading-corner.glb` 是七個模型的交換格式，不含相機、燈光與背景；三張 PNG 是起始場景參考圖，不是讀者練習完成證明。
 
@@ -27,4 +30,4 @@
 
 第1章不需要 Python 或外掛，開啟範例不需要啟用自動執行腳本。選用程式會建立模型、輸出檔案並進行 CPU 渲染，執行前請閱讀程式與說明。
 
-本配套模型、程式與參考渲染為本書原創素材；官方文件僅提供連結，不收錄第三方全文或圖片。本倉庫公開下載不等於採用 MIT 或其他開源授權；未另行明示授權的權利仍由權利人保留。
+本配套模型、程式與參考渲染為本書原創素材；官方文件僅提供連結，不收錄第三方全文或圖片。依 [Happy eBook 讀者配套使用許可 v1.0](LICENSE.md)，允許個人學習、備份、修改、課堂使用與展示，以及將自己改作的成果用於商業作品；不得重新散布或轉售原始配套，亦不得將未修改的原件改名後當成自己的成果再散布。課堂請提供官方下載連結，不另行重包分發。本許可不涵蓋電子書正文、封面與第三方素材；公開下載不等於 MIT 或其他開源授權，完整條件以許可文件為準。
