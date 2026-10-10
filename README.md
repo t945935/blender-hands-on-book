@@ -13,7 +13,7 @@
 3. 在 Blender 開啟 `examples/reading-corner/chapter01-start.blend`。
 4. 立即另存到自己的練習資料夾，再依書中說明操作。不要覆寫起始檔。
 
-目前提供第1章桌面閱讀角落配套，以及[第2章場景整理完成參考](examples/scene-organization/README.md)；其他章配套尚未發布。已實測環境為 Windows Blender 5.2.2 LTS，不保證所有版本／平台結果相同。
+目前提供桌面閱讀角落原型、第2章場景整理參考，以及[課程檢查點與唯讀報告工具](examples/course/README.md)。檢查點協助比對，不代表全部章節的GUI路徑都已驗收。已實測環境為 Windows Blender 5.2.2 LTS，不保證所有版本／平台結果相同。
 
 ## 檔案導覽
 

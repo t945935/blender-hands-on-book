@@ -1,0 +1,26 @@
+{
+  "status": "generated",
+  "version": "5.2.2 LTS",
+  "evidence_type": "background-generated reference; NOT GUI evidence",
+  "checkpoints": [
+    "board-applied.blend",
+    "tray-surface.blend",
+    "tray-modifiers.blend",
+    "dividers-nodes.blend"
+  ],
+  "previews": [
+    "board-applied.png",
+    "tray-surface.png",
+    "tray-modifiers.png",
+    "dividers-nodes.png"
+  ],
+  "render": {
+    "engine": "CYCLES",
+    "device": "CPU",
+    "samples": 24,
+    "resolution": [
+      960,
+      720
+    ]
+  }
+}
